@@ -36,11 +36,9 @@ module.exports = function (grunt) {
       dist: {
 		files: [{
 			expand: true,
-			//dot: true,
 			cwd: 'test/fixtures/',
 			ext: '.html',
 			dest: 'tmp',
-			//flatten: true,
 			src: '{,*/}*.html'
         }]
       }
